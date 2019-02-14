@@ -1,0 +1,18 @@
+{
+  "name": "test-nodeplotlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodeplotlib": "git://github.com/ngfelixl/nodeplotlib.git#test-with-jest"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  }
+}
